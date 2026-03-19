@@ -351,6 +351,25 @@ Promote digital payment options further and provide incentives to diversify paym
 
 ---
 
+## Repository Structure
+
+- **data/** - ola_ride_operations_dataset.xlsx
+  - Contains raw and processed datasets used for analysis
+
+- **sql/** - business_analysis.sql
+  - Includes SQL scripts for database creation and business analysis
+
+- **powerbi/** - ola_ride_performance_dashboard.pbix
+  - Contains the Power BI dashboard file (.pbix)
+
+- **dashboard_images/** - ola_dashboard_overview.png
+  - Stores screenshots used in the README for visualization preview
+
+- **README.md**
+  - Complete project documentation and insights
+  
+---
+
 ## How to Use
 
 1. Download the dataset from the dataset folder
