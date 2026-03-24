@@ -109,107 +109,133 @@ SQL was used to perform detailed data analysis and answer specific business ques
 The SQL analysis forms the foundation for insights visualized in the Power BI dashboard.
 
 
-### 1. Ride Completion Efficiency
+## 1. Ride Success Analysis
 
-**Business Problem:**
-How efficiently are ride bookings being converted into successful rides?
+Business Question:
+How many rides are successfully completed?
 
-**Key Insight:**
-A significant portion of bookings do not result in completed rides, as seen from cancelled and incomplete ride records in SQL analysis, indicating gaps in operational efficiency.
+Key Insight:
+A significant portion of rides are successfully completed, forming the base for revenue generation.
 
-**Business Recommendation:**
-Improve driver allocation speed and reduce ride acceptance delays. Introduce stricter cancellation monitoring to increase ride completion rates.
+Business Recommendation:
+Focus on improving the success rate further to maximize revenue and operational efficiency.
 
----
+--- 
 
-### 2. Customer vs Driver Cancellation Behavior
+## 2. Ride Distance by Vehicle Type
 
-**Business Problem:**
-What are the key drivers behind ride cancellations from customers and drivers?
+Business Question:
+What is the average ride distance for each vehicle type?
 
-**Key Insight:**
-SQL analysis shows that cancellations occur from both customer and driver sides, with driver cancellations often linked to personal or vehicle-related issues.
+Key Insight:
+Different vehicle types serve different distance ranges, indicating varied customer usage patterns.
 
-**Business Recommendation:**
-Implement driver incentives and accountability measures to reduce cancellations. Improve customer experience to minimize last-minute ride cancellations.
-
----
-
-### 3. Revenue Realization from Successful Rides
-
-**Business Problem:**
-How much revenue is actually realized from successfully completed rides?
-
-**Key Insight:**
-Revenue is generated only from successful bookings, meaning cancelled and incomplete rides contribute to revenue loss and missed opportunities.
-
-**Business Recommendation:**
-Focus on improving ride success rates to maximize revenue realization and track revenue leakage caused by failed bookings.
+Business Recommendation:
+Align vehicle allocation and pricing strategies based on trip distance patterns.
 
 ---
 
-### 4. Customer Retention & High-Value Users
+## 3. Customer Cancellation Analysis
 
-**Business Problem:**
-Who are the most frequent customers and how concentrated is ride demand?
+Business Question:
+How many rides are cancelled by customers?
 
-**Key Insight:**
-A small group of customers contributes a high number of bookings, indicating dependency on high-frequency users.
+Key Insight:
+Customer cancellations contribute to ride inefficiency and lost revenue opportunities.
 
-**Business Recommendation:**
-Introduce loyalty programs and targeted offers to retain high-value customers while expanding the overall customer base.
-
----
-
-### 5. Vehicle-Type Performance
-
-**Business Problem:**
-How does ride performance vary across different vehicle types?
-
-**Key Insight:**
-Ride distance and usage patterns differ across vehicle types, indicating variation in demand and customer preferences.
-
-**Business Recommendation:**
-Optimize vehicle allocation and pricing strategies based on demand patterns for each vehicle category.
+Business Recommendation:
+Improve booking experience and reduce wait times to minimize customer-side cancellations.
 
 ---
 
-### 6. Ride Distance & Usage Patterns
+## 4. High-Value Customer Identification
 
-**Business Problem:**
-What does ride distance indicate about customer travel behavior?
+Business Question:
+Who are the top 5 customers based on ride frequency?
 
-**Key Insight:**
-Ride distance analysis shows a mix of short and mid-range trips, reflecting typical urban travel demand.
+Key Insight:
+A small segment of customers contributes significantly to total bookings.
 
-**Business Recommendation:**
-Implement distance-based pricing and align vehicle availability to match trip distance patterns.
-
----
-
-### 7. Customer Satisfaction (Ratings Analysis)
-
-**Business Problem:**
-What is the overall customer satisfaction level across rides?
-
-**Key Insight:**
-Customer ratings indicate consistent service quality but highlight scope for improvement in overall experience.
-
-**Business Recommendation:**
-Monitor low-rated rides and improve service quality through driver training and feedback systems.
+Business Recommendation:
+Introduce loyalty programs to retain and reward high-frequency users.
 
 ---
 
-### 8. Payment Method Usage
+## 5. Driver Cancellation Behavior
 
-**Business Problem:**
-Which payment methods are most commonly used by customers?
+Business Question:
+How many rides are cancelled by drivers due to personal or vehicle issues?
 
-**Key Insight:**
-SQL analysis highlights strong usage of specific payment methods such as UPI, indicating customer preference trends.
+Key Insight:
+Driver-side cancellations highlight operational and availability challenges.
 
-**Business Recommendation:**
-Promote digital payment options further and provide incentives to diversify payment method usage.
+Business Recommendation:
+Implement driver incentives and accountability systems to reduce cancellations.
+
+---
+
+## 6. Driver Performance (Ratings)
+
+Business Question:
+What are the maximum and minimum driver ratings for Prime Sedan rides?
+
+Key Insight:
+Driver performance varies significantly, indicating inconsistency in service quality.
+
+Business Recommendation:
+Monitor low-performing drivers and improve service standards through training.
+
+---
+
+## 7. Payment Method Usage (UPI)
+
+Business Question:
+How many rides are completed using UPI payments?
+
+Key Insight:
+UPI is a frequently used payment method, reflecting customer preference for digital payments.
+
+Business Recommendation:
+Promote digital payments further with incentives and seamless experience.
+
+---
+
+## 8. Customer Satisfaction by Vehicle Type
+
+Business Question:
+What is the average customer rating across vehicle types?
+
+Key Insight:
+Customer satisfaction varies across vehicle categories.
+
+Business Recommendation:
+Focus on improving service quality in lower-rated vehicle segments.
+
+---
+
+## 9. Revenue from Successful Rides
+
+Business Question:
+What is the total booking value from successful rides?
+
+Key Insight:
+Revenue is directly tied to successful ride completion.
+
+Business Recommendation:
+Increase ride success rate to maximize revenue generation.
+
+---
+
+## 10. Incomplete Ride Analysis
+
+Business Question:
+What are the reasons for incomplete rides?
+
+Key Insight:
+Incomplete rides indicate operational failures and service disruptions.
+
+Business Recommendation:
+Identify and fix recurring issues causing incomplete rides.
 
 ---
 
