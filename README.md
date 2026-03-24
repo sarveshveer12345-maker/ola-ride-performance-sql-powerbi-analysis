@@ -102,7 +102,7 @@ CALCULATE(
 
 ---
 
-## SQL Analysis
+# SQL Analysis
 
 SQL was used to perform detailed data analysis and answer specific business questions, including ride success rates, cancellation behavior, customer patterns, and revenue calculations.
 
