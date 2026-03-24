@@ -104,6 +104,11 @@ CALCULATE(
 
 ## SQL Analysis
 
+SQL was used to perform detailed data analysis and answer specific business questions, including ride success rates, cancellation behavior, customer patterns, and revenue calculations.
+
+The SQL analysis forms the foundation for insights visualized in the Power BI dashboard.
+
+
 ### 1. Ride Completion Efficiency
 
 **Business Problem:**
@@ -205,6 +210,16 @@ SQL analysis highlights strong usage of specific payment methods such as UPI, in
 
 **Business Recommendation:**
 Promote digital payment options further and provide incentives to diversify payment method usage.
+
+---
+
+The insights derived from SQL analysis were used to design key metrics and visualizations in the Power BI dashboard:
+
+- Ride success rate → KPI Card
+- Revenue from successful bookings → KPI & Trend Chart
+- Top customers → Table visualization
+- Vehicle performance → Bar Chart
+- Payment method usage → Pie Chart
 
 ---
 
