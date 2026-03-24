@@ -315,11 +315,11 @@ Promote digital payment options further and provide incentives to diversify paym
    
 ## Tools Used
 
+- Excel (Data Source & Preparation)
+
 - My SQL (Data Analysis & Querying)
 
 - Power BI (Dashboard & Visualization)
-
-- Excel (Data Source & Preparation)
 
 ---
 
@@ -356,19 +356,17 @@ Promote digital payment options further and provide incentives to diversify paym
 ola-ride-performance-analysis/
 
 ├── data/
-│   └── ola_ride_operations_dataset.xlsx        # Raw dataset used for analysis
-
+│   └── ola_ride_operations_dataset.xlsx       
 ├── sql/
-│   └── business_analysis.sql                   # SQL queries for business insights
+│   └── business_analysis.sql                  
 
 ├── powerbi/
-│   └── ola_ride_performance_dashboard.pbix     # Power BI dashboard file
+│   └── ola_ride_performance_dashboard.pbix     
 
 ├── dashboard_images/
-│   ├── ola_dashboard_overview.png              # Dashboard preview image
-│   └── ola_dataset_preview.png                 # Dataset preview image
-
-└── README.md                                   # Project documentation
+│   ├── ola_dashboard_overview.png             
+│   └── ola_dataset_preview.png                 
+└── README.md                                   
 
 ---
 
