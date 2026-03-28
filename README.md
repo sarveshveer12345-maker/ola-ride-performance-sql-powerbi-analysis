@@ -422,16 +422,16 @@ ola-ride-performance-analysis/
 
 ## Repository Structure
 
-- **data/** - ola_ride_operations_dataset.xlsx
+- **data** - ola_ride_operations_dataset.xlsx
   - Contains raw and processed datasets used for analysis
 
-- **sql/** - business_analysis.sql
+- **sql** - business_analysis.sql
   - Includes SQL scripts for database creation and business analysis
 
-- **powerbi/** - ola_ride_performance_dashboard.pbix
+- **powerbi** - ola_ride_performance_dashboard.pbix
   - Contains the Power BI dashboard file (.pbix)
 
-- **dashboard_images/** - ola_dashboard_overview.png
+- **dashboard_images** - ola_dashboard_overview.png
   - Stores screenshots used in the README for visualization preview
 
 - **README.md**
